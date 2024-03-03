@@ -104,9 +104,6 @@ namespace My_Portfolio
                 connection.Close();
             }
 
-
-
-
         }
     }
 }

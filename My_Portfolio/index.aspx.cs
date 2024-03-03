@@ -9,6 +9,7 @@ using System.Web.UI.WebControls;
 using System.Xml.Linq;
 using MySql.Data.MySqlClient;
 using Org.BouncyCastle.Tls;
+using static System.Collections.Specialized.BitVector32;
 
 namespace My_Portfolio
 {
@@ -18,6 +19,8 @@ namespace My_Portfolio
         {
             if (!IsPostBack)
             {
+               // string imageUrl = "EXTENSION/pic4.png";
+                //home.Style["background-image"] = "url('" + imageUrl + "')";
                 About_name.InnerText = "Raihan Hossain Rakib";
                 About_detail.InnerText = "An Undergrad Student in Computer Science and Engineering at Khulna University Engineering & Technology.";
 
@@ -90,6 +93,7 @@ namespace My_Portfolio
 
         }
 
+
         protected void Contact_Submit_Button(object sender, EventArgs e)
         {
             Session["name"] = Name.Text;
@@ -122,7 +126,6 @@ namespace My_Portfolio
                     ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Message does not sent');", true);
 
                 }
-
 
             }
             catch (Exception ex)

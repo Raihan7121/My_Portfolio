@@ -47,7 +47,7 @@
 
     </header>
 
-    <section class="hero" id="home">
+    <section class="hero" id="home" runat="server">
         <div class="main-content" data-aos="fade-in">
             <h4>Hi, There!</h4>
             <h1>I'm <span runat="server" id="About_name"></span></h1>
@@ -56,8 +56,8 @@
             </p>
             <div class="social">
                 <a href="https://www.facebook.com/profile.php?id=100060307328465"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-telegram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://web.telegram.org/"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.linkedin.com/login"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="#"><i class="fa-solid fa-envelope"></i></a>
 
             </div>

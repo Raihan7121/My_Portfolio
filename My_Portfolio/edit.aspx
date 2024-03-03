@@ -9,6 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <h1>EDIT PAGE</h1>
         
                 <asp:Label ID="Home" runat="server" Text="Home"></asp:Label><br />
                  <h3>Name :</h3>
