@@ -1,0 +1,9 @@
+.table-styled {
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+}
+.cell-styled {
+    padding: 5px;
+    border: 1px solid #000;
+}
